@@ -85,6 +85,9 @@
 *::after {
   box-sizing: border-box;
 }
+.bk-gray{
+  background-color: gray;
+}
 .js:hover{
   color: rgb(59, 59, 59);
   background-image: url(../assets/back-js.png);
@@ -115,6 +118,16 @@
   color: white;
   font-weight: 700;
 }
+.git:hover{
+  background-image: url(../assets/git.png);
+  background-position: right;
+  background-size: contain;
+  background-color: rgba(247, 162, 71, 0.421) !important;
+  box-shadow: 1px 2px 1px rgb(1, 53, 1);
+  background-repeat: no-repeat;
+  color: rgb(19, 18, 18);
+  font-weight: 700;
+}
 .nodejs:hover{
   background-image: url(../assets/back-node.png);
   background-position: right;
@@ -123,6 +136,26 @@
   box-shadow: 1px 2px 1px rgb(1, 53, 1);
   background-repeat: no-repeat;
   color: rgb(14, 123, 21);
+  font-weight: 700;
+}
+.react:hover{
+  background-image: url(../assets/react.png);
+  background-position: right;
+  background-size: contain;
+  background-color: rgb(57, 57, 57) !important;
+  box-shadow: 1px 2px 1px rgb(1, 53, 1);
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.typescritp:hover{
+  background-image: url(../assets/typescript.png);
+  background-position: right;
+  background-size: contain;
+  background-color: rgb(19, 104, 173) !important;
+  box-shadow: 1px 2px 1px rgb(1, 53, 1);
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
   font-weight: 700;
 }
 .img-logo-pj{
@@ -431,6 +464,9 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+}
+.blocos{
+  border: solid 0.8px rgb(225, 225, 225); 
 }
 .blocos:hover{
   cursor: pointer;
